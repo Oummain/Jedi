@@ -1,0 +1,44 @@
+.early{
+    display: flex;
+    flex-flow: column-reverse;
+    gap: 20px;
+}
+
+.populaire_hotel img {
+    flex: 1;
+  }
+
+.activite_article{
+    display: flex;
+    flex-flow: column;
+}
+
+.activite_groupe_colum{
+    all: unset;
+    display: flex;
+    flex-flow: row;
+    flex: 1;
+    gap: 20px;
+}
+
+
+#activite img{
+    height: 100px;
+}
+
+.activite_colum div{
+    all: unset;
+    flex: 1;
+}
+
+.activite_groupe_colum .activite_colum:nth-child(1){
+    flex: 1;
+    display: flex;
+    flex-flow: row ;
+}
+
+.activite_groupe_colum .activite_colum:nth-child(2){
+    flex: 2;
+    display: flex;
+    flex-flow: row ;
+}

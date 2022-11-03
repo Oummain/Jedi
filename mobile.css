@@ -1,0 +1,269 @@
+.form_button{
+    display: none;
+}
+
+.header, .main{
+    padding: 0;
+    margin: 0;
+    max-width: 768px;
+}
+
+
+.logo{
+    all: unset;
+    width: 25%;
+    align-self: center;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.barre{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_nav{
+    all: unset;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    all: unset;
+    border-bottom: 3px solid #F2F2F2;
+    padding-bottom: 10px;
+    border-bottom: 3px #F2F2F2 solid;
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+}
+
+
+nav a:hover{
+    border-top: none;
+}
+
+.header_nav div{
+    all: unset;
+    width: 50%;
+    display: flex;
+}
+
+nav a:focus{
+    
+    color: #0065FC;
+    border-bottom: 3px solid #0065FC;
+}
+
+.header_title{
+    padding: 25px 40px 10px 15px;
+}
+
+.header p{
+    padding: 10px 40px 10px 15px;
+}
+
+
+
+
+.header_form{
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+
+
+form i{   
+    font-size: medium;
+}
+
+.loupe{
+    all: unset;
+}
+
+.loupe i{
+    display: flex;
+    background-color: #0065FC;
+    color: white;
+    width: 42px;
+    height: 42px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: -7px;
+    
+}
+
+
+.filtre{
+    all: unset;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 15px 15px 15px;
+    width: 300px;
+}
+
+.filtre_title{
+    padding-bottom: 10px;
+
+}
+
+
+
+.filtre button:focus{
+    background-color: lightgray;
+    border-radius: 50px; 
+    font-weight: bold;
+    box-sizing: border-box;  
+}
+
+.button{
+    display: flex;
+    flex-direction: row nowrap;
+    background-color: white;
+    border: 2px solid #F2F2F2;
+    border-radius: 20px;
+    margin-left: -2px;
+    align-items: center;
+}
+
+.button span{
+
+    font-size: medium;
+    
+}
+
+.button i{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    font-size: medium;
+    border-radius: 100%; 
+    box-sizing: border-box;
+    border: 1px solid #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infop{
+    padding: 15px;
+}
+
+
+
+
+.early{
+    
+    flex-direction: column-reverse;
+    padding: 0 ;
+   
+}
+
+.populaire{
+    border-radius: 0;
+    flex: 1;
+}
+
+.populaire_article{
+    gap: 20px;
+}
+
+.populaire_hotel{
+    background-color: white;
+    width: auto;
+}
+
+.populaire_hotel a{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+.populaire_hotel img{
+    width: 35%;
+    height: 100%;
+    
+}
+
+.populaire_hotel_info{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    width: 65%;
+    font-size: medium;
+}
+
+
+
+
+
+
+
+#hebergement{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+
+
+.hebergement_article{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hotel{
+    width: auto;
+}
+
+
+
+.hotel img{
+    height: 120px;
+}
+
+
+
+
+
+
+
+
+
+#activite{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.activite_article{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+.activite_colum img{
+    height: 120px;
+}
+
+
+    
+
+
+
+.activite_groupe_colum{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.pied{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
